@@ -2,7 +2,7 @@ package main.com.github.goodfatcat.sort;
 
 import java.util.Arrays;
 
-public class Buble {
+public class Bubble {
     public static void main(String[] args) {
         int[] array = ArraysTool.createRandomArray();
 
