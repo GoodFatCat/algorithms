@@ -17,6 +17,9 @@ public class Bubble {
         System.out.println(Arrays.toString(array));
     }
     
+    /** This method sorted array by bubble sort
+     * @param array sorted massive
+     * */
     public static void sort(int[] array) {
         boolean isSorted = false;
 
