@@ -1,7 +1,5 @@
-package main.com.github.goodfatcat.fibonachi;
+package main.com.github.goodfatcat.alishev.fibonachi;
 
-import java.util.ArrayList;
-import java.util.List;
 import java.util.Scanner;
 
 public class Fibonacci {
@@ -26,16 +24,18 @@ public class Fibonacci {
 
     private static long getNumberFibonacciEffectively(int n) {
 
-        long[] list = new long[n + 1];
+        long[] list = new long[n + 1];  // O(n)
 
-        for (int i = 0; i <= n; i++) {
+        for (int i = 0; i <= n; i++) {  // O(n)
             if (i <= 1) {
-                list[i] = i;
+                list[i] = i;  // O(1)
             } else {
-                list[i] = list[i - 1] + list[i - 2];
+                list[i] = list[i - 1] + list[i - 2];  // O(1)
             }
         }
 
-        return list[n];
+        return list[n];  // O(1)
+
+        // Общая сложность O(n) + O(1) + O(1) + O(1) + O(n) = O(2n + 3) = O(n)
     }
 }
