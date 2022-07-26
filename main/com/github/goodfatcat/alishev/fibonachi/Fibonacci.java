@@ -1,4 +1,4 @@
-package main.com.github.goodfatcat.alishev.fibonachi;
+package com.github.goodfatcat.alishev.fibonachi;
 
 import java.util.Scanner;
 

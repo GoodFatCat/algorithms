@@ -1,4 +1,4 @@
-package main.com.github.goodfatcat.alishev.greedyalgorithms;
+package com.github.goodfatcat.alishev.greedyalgorithms;
 
 import java.util.Arrays;
 import java.util.Random;

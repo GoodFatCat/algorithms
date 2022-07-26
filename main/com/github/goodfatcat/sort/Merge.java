@@ -1,4 +1,4 @@
-package main.com.github.goodfatcat.sort;
+package com.github.goodfatcat.sort;
 
 import java.util.Arrays;
 
